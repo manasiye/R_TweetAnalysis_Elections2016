@@ -1,0 +1,10 @@
+name: r_tweet_analysis_election2016
+title:
+username:
+account: manasi-yerunkar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 229837
+bundleId: 1048388
+url: https://manasi-yerunkar.shinyapps.io/r_tweet_analysis_election2016/
+when: 1509122248.02334
