@@ -11,10 +11,10 @@ library(MASS)
 shinyServer(
   function(input, output, session){
     
-    accessToken <- "290396010-R4ki3R3afXf2HicbFKqZdydAJu7ak98SU4pfizPg"
-    accessTokenSecret <- "AVAYPMJc7k7quUZqRcklktNLgkeK8kL5BJl300HqtRiJs"
-    apiKey <- "	1Lr0nT0slJQs7vu1cIZ2gzHSN"
-    apiKeySecret <- "SwmqYAtnWQ84XylkcZvvGMrQmDxDWnMwSpdW3e3M7V2mVpIbpX"
+    accessToken <- "your-access-token"
+    accessTokenSecret <- "our-access-token-secret"
+    apiKey <- "your-api-key"
+    apiKeySecret <- "your-api-key-secret"
     
     setup_twitter_oauth(apiKey,apiKeySecret,accessToken,accessTokenSecret)
     token <- get("oauth_token", twitteR:::oauth_cache)
